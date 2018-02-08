@@ -1,37 +1,20 @@
 {
-  "author": {
-    "name": "Patrik Simek",
-    "url": "https://patriksimek.cz"
-  },
-  "name": "mssql",
-  "description": "Microsoft SQL Server client for Node.js.",
+  "name": "@serkandurusoy/mssql",
+  "description": "Temporary fork of official mssql package",
   "keywords": [
-    "database",
-    "mssql",
-    "sql",
-    "server",
-    "msnodesql",
-    "sqlserver",
-    "tds",
-    "node-tds",
-    "tedious",
-    "node-sqlserver",
-    "sqlserver",
-    "msnodesqlv8",
-    "azure",
-    "node-mssql"
+    "mssql"
   ],
-  "version": "4.1.0",
+  "version": "4.1.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patriksimek/node-mssql"
+    "url": "https://github.com/serkandurusoy/node-mssql"
   },
   "license": "MIT",
   "dependencies": {
     "debug": "^2.6.3",
-    "generic-pool": "^3.1.7",
-    "tedious": "^2.0.0"
+    "generic-pool": "^3.4.1",
+    "tedious": "^2.3.1"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
